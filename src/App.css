@@ -1,0 +1,161 @@
+.body {
+  display: block;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f1eeee;
+}
+
+.invoice-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.invoice-box {
+  border-radius: 1rem;
+  padding: 20px;
+  border: 1px solid #cccccc;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 767px; /* Adjust width as needed */
+  max-width: 100%; /* Ensures it doesn't exceed the viewport width */
+  background: #fff;
+
+}
+
+.invoice-box .header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.invoice-box .header .left {
+  flex: 1;
+  text-align: left;
+}
+
+.invoice-box .header .right {
+  flex: 1;
+  text-align: right;
+}
+
+.invoice-box .logo {
+  max-width: 150px;
+}
+
+.invoice-box .flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.invoice-box .flex-container .left,
+.invoice-box .flex-container .right {
+  width: 48%;
+}
+
+.invoice-box .flex-container .left {
+  text-align: left;
+}
+
+.invoice-box .flex-container .right {
+  text-align: right;
+}
+
+.invoice-box table {
+  width: 100%;
+  line-height: inherit;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.invoice-box table th,
+.invoice-box table td {
+  padding: 8px;
+  border: 1px solid #000;
+}
+
+.invoice-box table tr.heading th {
+  background: #eee;
+  font-weight: bold;
+}
+
+.invoice-box table tr.item td {
+  border-bottom: 1px solid #000;
+}
+
+.invoice-box table tr.item.last td {
+  border-bottom: none;
+}
+
+.invoice-box table tr.total td {
+  font-weight: bold;
+}
+
+.signature {
+  margin-top: 40px;
+  text-align: right;
+}
+
+.invoice-box .signature img {
+  width: 150px;
+  margin-top: 10px;
+}
+
+.invoice-box .reverse-charge {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.order-number {
+  margin-top: 18rem;
+}
+
+.total-amount {
+  background: #eee;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0rem;  
+}
+
+.search-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  width: 500px; /* Adjust width as needed */
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.search-button {
+  background-color: #cccccc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-button:hover {
+  background-color: #45a049;
+}
+
+strong {
+  display: inline-block;
+  margin-top: 1rem;
+}
